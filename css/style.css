@@ -399,8 +399,8 @@ p {
 
 .hero-workflow-image {
   display: block;
-  width: 100%;
-  max-width: 720px;
+  width: 115%;
+  max-width: 780px;
   height: auto;
   border-radius: 12px;
   box-shadow: 0 18px 45px rgba(11, 31, 51, 0.14);
@@ -1040,7 +1040,7 @@ p {
 @media (max-width: 1000px) {
 
   .hero-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     gap: 55px;
   }
 
