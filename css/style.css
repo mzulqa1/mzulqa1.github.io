@@ -399,12 +399,15 @@ p {
 
 .hero-workflow-image {
   display: block;
-  width: 135%;
+  width: 100%;
   max-width: none;
   height: auto;
   margin-left: 50px;
   border-radius: 12px;
   box-shadow: 0 18px 45px rgba(11, 31, 51, 0.14);
+
+  transform: scale(1.30);
+  transform-origin: left center;
 }
 
 .visual-card {
