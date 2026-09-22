@@ -399,10 +399,10 @@ p {
 
 .hero-workflow-image {
   display: block;
-  width: 100%;
-  max-width: 1060px;
+  width: 135%;
+  max-width: none;
   height: auto;
-  margin-left: 25px;
+  margin-left: 50px;
   border-radius: 12px;
   box-shadow: 0 18px 45px rgba(11, 31, 51, 0.14);
 }
