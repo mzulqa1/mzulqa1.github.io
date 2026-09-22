@@ -281,7 +281,7 @@ p {
   z-index: 2;
 
   display: grid;
-  grid-template-columns: 1.12fr 0.88fr;
+  grid-template-columns: 0.95fr 1.05fr;
 
   align-items: center;
   gap: 65px;
