@@ -281,10 +281,10 @@ p {
   z-index: 2;
 
   display: grid;
-  grid-template-columns: 0.95fr 1.05fr;
+  grid-template-columns: 0.85fr 1.15fr;
 
   align-items: center;
-  gap: 65px;
+  gap: 40px;
 }
 
 .eyebrow {
@@ -400,7 +400,7 @@ p {
 .hero-workflow-image {
   display: block;
   width: 100%;
-  max-width: 850px;
+  max-width: 1060px;
   height: auto;
   border-radius: 12px;
   box-shadow: 0 18px 45px rgba(11, 31, 51, 0.14);
