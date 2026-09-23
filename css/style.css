@@ -1067,8 +1067,8 @@ p {
   line-height: 1.7;
 }
 
-.publication-content .text-link {
-  margin-top: auto;
+.publication-card-wide .publication-content .text-link {
+  margin-top: 28px;
 }
 
 
