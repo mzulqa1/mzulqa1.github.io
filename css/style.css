@@ -911,7 +911,199 @@ p {
   font-size: 0.87rem;
   font-weight: 700;
 }
+/* =========================================================
+   SELECTED RESEARCH & PUBLICATIONS
+   ========================================================= */
 
+.publications-section {
+  background: #f6f9fb;
+}
+
+.publications-header {
+  max-width: 760px;
+  margin-bottom: 48px;
+}
+
+.publications-header h2 {
+  margin-top: 10px;
+  margin-bottom: 16px;
+
+  font-size: clamp(2rem, 4vw, 2.8rem);
+  letter-spacing: -0.03em;
+}
+
+.publications-header > p:last-child {
+  margin: 0;
+
+  max-width: 700px;
+
+  font-size: 1rem;
+  line-height: 1.8;
+}
+
+
+/* Publication grid */
+
+.publication-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+
+  gap: 32px;
+}
+
+
+/* Individual publication card */
+
+.publication-card {
+  overflow: hidden;
+
+  display: flex;
+  flex-direction: column;
+
+  background: white;
+
+  border: 1px solid #dfe8ed;
+  border-radius: 14px;
+
+  box-shadow: 0 8px 25px rgba(11, 31, 51, 0.06);
+
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.publication-card:hover {
+  transform: translateY(-4px);
+
+  box-shadow: 0 14px 34px rgba(11, 31, 51, 0.10);
+}
+
+
+/* Figure area */
+
+.publication-visual {
+  position: relative;
+
+  width: 100%;
+  height: 270px;
+
+  overflow: hidden;
+
+  background: #eaf1f5;
+
+  border-bottom: 1px solid #dfe8ed;
+}
+
+.publication-visual img {
+  width: 100%;
+  height: 100%;
+
+  display: block;
+
+  object-fit: contain;
+
+  background: white;
+}
+
+
+/* Temporary placeholder */
+
+.publication-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: #7b8d99;
+
+  font-size: 0.82rem;
+  font-weight: 700;
+
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+
+/* Card text */
+
+.publication-content {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+
+  padding: 28px 30px 30px;
+}
+
+.publication-meta {
+  margin: 0 0 12px;
+
+  color: var(--blue);
+
+  font-size: 0.72rem;
+  font-weight: 800;
+
+  letter-spacing: 0.08em;
+  line-height: 1.5;
+
+  text-transform: uppercase;
+}
+
+.publication-content h3 {
+  margin: 0 0 14px;
+
+  color: #173042;
+
+  font-size: 1.22rem;
+  line-height: 1.4;
+
+  letter-spacing: -0.015em;
+}
+
+.publication-content > p:not(.publication-meta) {
+  margin: 0 0 20px;
+
+  color: #5e7180;
+
+  font-size: 0.92rem;
+  line-height: 1.7;
+}
+
+.publication-content .text-link {
+  margin-top: auto;
+}
+
+
+/* Wide BOEM / CFD card */
+
+.publication-card-wide {
+  grid-column: 1 / -1;
+
+  display: grid;
+  grid-template-columns: 1.25fr 1fr;
+}
+
+.publication-card-wide .publication-visual {
+  height: 100%;
+  min-height: 330px;
+
+  border-bottom: 0;
+  border-right: 1px solid #dfe8ed;
+}
+
+.publication-card-wide .publication-content {
+  justify-content: center;
+
+  padding: 38px;
+}
+
+
+/* Google Scholar */
+
+.publications-footer {
+  display: flex;
+  justify-content: center;
+
+  margin-top: 42px;
+}
 
 /* ============================================================
    ABOUT
@@ -1122,6 +1314,32 @@ p {
   .about-grid {
     gap: 55px;
   }
+   .publication-grid {
+  grid-template-columns: 1fr;
+}
+
+.publication-card-wide {
+  grid-column: auto;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.publication-card-wide .publication-visual {
+  height: 270px;
+  min-height: 0;
+
+  border-right: 0;
+  border-bottom: 1px solid #dfe8ed;
+}
+
+.publication-card-wide .publication-content {
+  padding: 28px 30px 30px;
+}
+
+.publications-header {
+  margin-bottom: 36px;
+}
 }
 
 
