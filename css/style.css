@@ -547,7 +547,9 @@ p {
 
   gap: 22px;
 }
-
+.expertise-card:last-child {
+  grid-column: 1 / -1;
+}
 .expertise-card {
   position: relative;
 
