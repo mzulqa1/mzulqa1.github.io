@@ -49,7 +49,7 @@ The two main files are:
 - **`index.html`** — website content and page structure
 - **`styles.css`** — layout, typography, colors, responsive behavior, and visual styling
 
-You do not need to be a web developer to customize the site. Most changes involve replacing text, links, images, and project information in `index.html`.
+You do not need to be a web developer to customize the site. Most changes involve replacing text, links, images, and project information in `index.html`, while the overall appearance is controlled through `styles.css`.
 
 ### Basic Workflow
 
@@ -107,24 +107,26 @@ The repository contains the main website files along with supporting images, tec
 
 ---
 
-## Customization Tips
+## Customizing the Template
 
-If you use this repository as a starting point, I recommend customizing it rather than simply reproducing the existing site.
+If you use this repository as a starting point, I recommend customizing it to reflect your own professional identity rather than simply reproducing the existing portfolio.
 
 In particular:
 
-- Replace all biographical and professional content with your own
+- Replace all biographical and professional information with your own
 - Use your own profile photograph
 - Replace project images and engineering graphics
-- Add your own publications and research
-- Update all LinkedIn, GitHub, résumé, and application links
-- Adjust colors, typography, and layout to reflect your own professional identity
+- Add your own projects, research, and publications
+- Update LinkedIn, GitHub, résumé, and application links
+- Adjust colors, typography, and layout as desired
+- Remove sections that are not relevant to your work
+- Add new sections appropriate to your profession or portfolio
 
-ChatGPT or another coding assistant can help explain individual HTML/CSS sections and modify them without requiring extensive web-development experience.
+ChatGPT or another coding assistant can also help explain individual HTML/CSS sections and modify them without requiring extensive web-development experience.
 
 ---
 
-## GitHub Pages
+## Publishing with GitHub Pages
 
 GitHub Pages can publish a static website directly from a GitHub repository.
 
@@ -140,7 +142,9 @@ The resulting website is then available at:
 https://yourusername.github.io/
 ```
 
-GitHub Pages documentation provides instructions for enabling Pages and selecting the appropriate deployment branch.
+After creating the repository and adding your website files, enable **GitHub Pages** in the repository settings and select the appropriate deployment branch.
+
+This provides a simple way to maintain and host a professional portfolio without a separate commercial hosting service.
 
 ---
 
@@ -153,21 +157,30 @@ GitHub Pages documentation provides instructions for enabling Pages and selectin
 
 ---
 
-## Reuse and Attribution
+## License and Reuse
 
-The **website code and layout** may be used as a starting point for building your own portfolio, subject to the license included with this repository.
+The **HTML and CSS code used to build this website** may be used, copied, modified, and redistributed under the **MIT License** included with this repository.
 
-Please note that the repository also contains personal and scholarly material that is **not intended to be treated as reusable template content**, including:
+You are welcome to use the website structure and styling as a starting point for your own portfolio.
+
+### Personal and Research Content
+
+The MIT License applies to the website code and **does not grant reuse rights to personal, scholarly, project-specific, or third-party content contained in the repository**.
+
+Unless separately licensed or otherwise permitted, this includes:
 
 - Personal photographs
 - Résumé/CV content
 - Biographical and professional information
 - Research figures and publication graphics
-- Publication content
+- Published or unpublished research content
 - Project-specific technical material
-- Third-party or copyrighted material
+- Logos, trademarks, or third-party graphics
+- Other copyrighted third-party material
 
-If you reuse the website structure, please replace these materials with your own content and observe the applicable copyright and licensing requirements for any third-party material.
+If you use this repository as a template, please replace these materials with your own content and observe the applicable copyright and licensing requirements for any third-party materials.
+
+See the [`LICENSE`](LICENSE) file for the software license terms.
 
 ---
 
@@ -175,4 +188,6 @@ If you reuse the website structure, please replace these materials with your own
 
 This portfolio was developed through an iterative engineering-style workflow: define the objective, build a working version, evaluate the result, and progressively refine the content, layout, visuals, and responsive behavior.
 
-The development process also demonstrates how **AI-assisted coding can make web development more accessible to engineers, researchers, and technical professionals without a traditional web-development background.**
+The development process also demonstrates how **AI-assisted coding can make web development more accessible to engineers, researchers, students, and other technical professionals without a traditional web-development background.**
+
+If this repository helps you build your own portfolio, feel free to fork it, customize it, and make it your own.
