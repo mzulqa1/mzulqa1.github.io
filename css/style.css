@@ -1105,6 +1105,199 @@ p {
 }
 
 /* ============================================================
+   DATA SCIENCE & MACHINE LEARNING
+   ============================================================ */
+
+.data-science-section {
+  background: white;
+}
+
+.data-science-grid {
+  display: grid;
+  grid-template-columns: 0.9fr 1.1fr;
+  gap: 90px;
+}
+
+.data-science-grid h2 {
+  margin-top: 10px;
+  max-width: 470px;
+
+  font-size: clamp(2rem, 4vw, 2.8rem);
+  letter-spacing: -0.03em;
+}
+
+.data-science-content {
+  padding-top: 8px;
+}
+
+.data-science-content p {
+  margin-bottom: 20px;
+
+  font-size: 1rem;
+  line-height: 1.8;
+}
+
+
+/* ============================================================
+   SELECTED DATA SCIENCE & ML PROJECTS
+   ============================================================ */
+
+.data-science-projects-section {
+  background: #f6f9fb;
+}
+
+.data-science-projects-header {
+  max-width: 760px;
+  margin-bottom: 48px;
+}
+
+.data-science-projects-header h2 {
+  margin-top: 10px;
+  margin-bottom: 16px;
+
+  font-size: clamp(2rem, 4vw, 2.8rem);
+  letter-spacing: -0.03em;
+}
+
+.data-science-projects-header > p:last-child {
+  margin: 0;
+  max-width: 700px;
+
+  font-size: 1rem;
+  line-height: 1.8;
+}
+
+
+/* Project grid */
+
+.data-science-project-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 32px;
+}
+
+
+/* Individual project card */
+
+.data-science-project-card {
+  overflow: hidden;
+
+  display: flex;
+  flex-direction: column;
+
+  background: white;
+
+  border: 1px solid #dfe8ed;
+  border-radius: 14px;
+
+  box-shadow: 0 8px 25px rgba(11, 31, 51, 0.06);
+
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.data-science-project-card:hover {
+  transform: translateY(-4px);
+
+  box-shadow: 0 14px 34px rgba(11, 31, 51, 0.10);
+}
+
+
+/* Project figure */
+
+.data-science-project-visual {
+  position: relative;
+
+  width: 100%;
+  height: 270px;
+
+  overflow: hidden;
+
+  background: #eaf1f5;
+
+  border-bottom: 1px solid #dfe8ed;
+}
+
+.data-science-project-visual img {
+  width: 100%;
+  height: 100%;
+
+  display: block;
+
+  object-fit: contain;
+
+  background: #eaf1f5;
+}
+
+
+/* Project content */
+
+.data-science-project-content {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+
+  padding: 28px 30px 30px;
+}
+
+.data-science-project-meta {
+  margin: 0 0 12px;
+
+  color: var(--blue);
+
+  font-size: 0.72rem;
+  font-weight: 800;
+
+  letter-spacing: 0.08em;
+  line-height: 1.5;
+
+  text-transform: uppercase;
+}
+
+.data-science-project-content h3 {
+  margin: 0 0 14px;
+
+  color: #173042;
+
+  font-size: 1.22rem;
+  line-height: 1.4;
+
+  letter-spacing: -0.015em;
+}
+
+.data-science-project-content > p:not(.data-science-project-meta) {
+  margin: 0 0 20px;
+
+  color: #5e7180;
+
+  font-size: 0.92rem;
+  line-height: 1.7;
+}
+
+.data-science-project-content .tags {
+  margin-top: 0;
+  margin-bottom: 22px;
+}
+
+
+/* Project links */
+
+.data-science-project-links {
+  display: flex;
+  flex-wrap: wrap;
+
+  gap: 8px 24px;
+
+  margin-top: auto;
+}
+
+.data-science-project-links .text-link {
+  margin-top: 0;
+}
+
+
+/* ============================================================
    ABOUT
    ============================================================ */
 
